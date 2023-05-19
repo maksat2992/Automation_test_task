@@ -111,8 +111,7 @@ test.describe("Test cases for automation test task", () => {
     });
   });
 
-  // FAILED TEST
-  test("Login with invalid user data", async ({ page }) => {
+  test("Login with valid user data", async ({ page }) => {
     await test.step("Navigate and fill user login data and validate that user is login", async () => {
       const mainPge = new MainPage(page);
 
