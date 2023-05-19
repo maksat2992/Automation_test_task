@@ -28,4 +28,4 @@ npm run format # Used prettier with default configuration to format code
 
 ## Additional info
 
-Report was stored in allure-results && playwright-report folders. Added Prettier but with default configurations. Also added default gitHub workflow.
+Report was stored in allure-results && playwright-report folders.
