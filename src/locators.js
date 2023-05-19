@@ -7,7 +7,7 @@ const locator = {
     searchField: ".search-input",
     searchResult: ".search-product-item-text .product-list__name",
     profileIcon: ".header-office",
-    favouriteIcon: '[href="/ua/user/favourite/"]',
+    favouriteIcon: '.header-favourite',
   },
   category:
     "//a[contains(@href,'categorys') and normalize-space(text())='@Value@']",

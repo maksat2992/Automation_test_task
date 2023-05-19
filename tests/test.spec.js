@@ -23,13 +23,13 @@ test.describe("Test cases for automation test task", () => {
     await test.step("Open category and change filters", async () => {
       await mainPge.selectCategory(testData.category.forMan);
       await mainPge.selectFilter(testData.filters.brands.oldSpice, true);
-      await page.waitForLoadState("networkidle");
+      await page.waitForLoadState("domcontentloaded");
       await mainPge.selectFilter(testData.filters.aftershaveProducts);
-      await page.waitForLoadState("networkidle");
+      await page.waitForLoadState("domcontentloaded");
       await mainPge.selectFilter(testData.filters.hydration);
     });
 
-    await page.waitForLoadState("networkidle");
+    await page.waitForLoadState("domcontentloaded");
     await page.waitForTimeout(baseTimeout);
 
     await test.step("Check if products are correctly filtered by price", async () => {

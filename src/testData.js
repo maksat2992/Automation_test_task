@@ -12,7 +12,7 @@ const testData = {
     },
   },
   login: {
-    email: "testuser@example.com",
+    email: "wzvlftgvgdfdwsqvus@bbitq.com",
     password: "Password123!@#",
   },
   search: {
